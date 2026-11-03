@@ -1,10 +1,4 @@
 import "./globals.css";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "TaskTracker",
-  description: "A tiny task list built with Next.js + TypeScript.",
-};
 
 export default function RootLayout({
   children,
